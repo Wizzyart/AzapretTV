@@ -31,7 +31,7 @@
   <rect x="840" y="390" width="300" height="54" rx="999" fill="#161616" stroke="#343434" stroke-width="3"/>
   <text x="910" y="424" fill="#ffffff" font-family="Inter, Segoe UI, Arial" font-size="18" font-weight="700">Профиль: Orbit MID</text>
   <rect x="840" y="462" width="300" height="54" rx="999" fill="#161616" stroke="#343434" stroke-width="3"/>
-  <text x="920" y="496" fill="#ffffff" font-family="Inter, Segoe UI, Arial" font-size="18" font-weight="700">Автозапуск</text>
+  <text x="920" y="496" fill="#ffffff" font-family="Inter, Segoe UI, Arial" font-size="18" font-weight="700">Автостарт</text>
 
   <path d="M845 585 C790 535 740 500 705 474" stroke="#ff3b3b" stroke-width="10" fill="none" marker-end="url(#arrow)"/>
   <text x="800" y="632" fill="#ffb4ae" font-family="Inter, Segoe UI, Arial" font-size="30" font-weight="900">Нажмите «Подключиться»</text>
