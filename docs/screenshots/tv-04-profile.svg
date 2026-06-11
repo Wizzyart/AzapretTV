@@ -1,19 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
-  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#08111f"/><stop offset="1" stop-color="#1e1b4b"/></linearGradient><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#ff3b30"/></marker></defs>
-  <rect width="1280" height="720" fill="url(#bg)"/>
-  <rect x="82" y="54" width="1116" height="612" rx="34" fill="#07111f" stroke="#334155" stroke-width="5"/>
-  <text x="150" y="138" fill="#e5f0ff" font-family="Segoe UI, Arial" font-size="40" font-weight="800">Подбор профиля</text>
-  <text x="150" y="184" fill="#93c5fd" font-family="Segoe UI, Arial" font-size="24">Если обход не заработал сразу, запустите проверку профилей.</text>
-  <rect x="150" y="245" width="360" height="76" rx="20" fill="#0f172a" stroke="#334155" stroke-width="3"/>
-  <text x="190" y="293" fill="#cbd5e1" font-family="Segoe UI, Arial" font-size="26" font-weight="700">TPWS / Orbit</text>
-  <rect x="150" y="345" width="360" height="76" rx="20" fill="#0f172a" stroke="#334155" stroke-width="3"/>
-  <text x="190" y="393" fill="#cbd5e1" font-family="Segoe UI, Arial" font-size="26" font-weight="700">DPI profile</text>
-  <rect x="150" y="445" width="360" height="76" rx="20" fill="#052e16" stroke="#22c55e" stroke-width="5"/>
-  <text x="190" y="493" fill="#bbf7d0" font-family="Segoe UI, Arial" font-size="26" font-weight="800">Рекомендуемый профиль</text>
-  <rect x="660" y="280" width="360" height="104" rx="28" fill="#2563eb"/>
-  <text x="725" y="346" fill="#fff" font-family="Segoe UI, Arial" font-size="32" font-weight="800">Подобрать профиль</text>
-  <rect x="660" y="420" width="360" height="92" rx="26" fill="#16a34a"/>
-  <text x="755" y="477" fill="#fff" font-family="Segoe UI, Arial" font-size="30" font-weight="800">Включить</text>
-  <path d="M1040 250 C1015 290 985 315 955 330" stroke="#ff3b30" stroke-width="10" fill="none" marker-end="url(#arrow)"/>
-  <text x="675" y="590" fill="#ffb4ae" font-family="Segoe UI, Arial" font-size="31" font-weight="800">1. Подобрать профиль  →  2. Включить</text>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="24%" r="70%"><stop offset="0" stop-color="#ff0000" stop-opacity="0.20"/><stop offset="0.52" stop-color="#210606"/><stop offset="1" stop-color="#030101"/></radialGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff0000"/><stop offset="1" stop-color="#b00000"/></linearGradient>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto"><path d="M2,2 L12,7 L2,12 Z" fill="#ff3b3b"/></marker>
+  </defs>
+  <rect width="1280" height="720" fill="#030101"/>
+  <rect x="70" y="44" width="1140" height="632" rx="38" fill="url(#bg)" stroke="#3a1010" stroke-width="6"/>
+  <text x="150" y="128" fill="#ffffff" font-family="Inter, Segoe UI, Arial" font-size="42" font-weight="900">Подбор профиля</text>
+  <text x="150" y="172" fill="#ffd2d2" font-family="Inter, Segoe UI, Arial" font-size="22">Если обход не заработал сразу, проверьте стабильные профили.</text>
+  <rect x="150" y="228" width="480" height="70" rx="20" fill="#1c1c1c" stroke="#4a4a4a"/>
+  <text x="184" y="273" fill="#ffffff" font-family="Inter, Segoe UI, Arial" font-size="22" font-weight="800">Orbit MID</text>
+  <text x="470" y="273" fill="#9ca3af" font-family="Inter, Segoe UI, Arial" font-size="20">ожидает</text>
+  <rect x="150" y="318" width="480" height="70" rx="20" fill="#1c1c1c" stroke="#4a4a4a"/>
+  <text x="184" y="363" fill="#ffffff" font-family="Inter, Segoe UI, Arial" font-size="22" font-weight="800">DPI YOUTUBE 1</text>
+  <text x="470" y="363" fill="#ffd2d2" font-family="Inter, Segoe UI, Arial" font-size="20">проверка</text>
+  <rect x="150" y="408" width="480" height="78" rx="22" fill="#2d1212" stroke="#ff3b3b" stroke-width="4"/>
+  <text x="184" y="456" fill="#ffffff" font-family="Inter, Segoe UI, Arial" font-size="22" font-weight="900">DPI GOOGLEVIDEO</text>
+  <text x="470" y="456" fill="#ffb4ae" font-family="Inter, Segoe UI, Arial" font-size="20" font-weight="800">лучший</text>
+  <rect x="734" y="260" width="360" height="70" rx="999" fill="url(#red)" stroke="#ffffff" stroke-width="4"/>
+  <text x="884" y="304" fill="#ffffff" font-family="Inter, Segoe UI, Arial" font-size="25" font-weight="900" text-anchor="middle">Старт</text>
+  <rect x="734" y="358" width="360" height="62" rx="999" fill="#242424" stroke="#4a4a4a" stroke-width="3"/>
+  <text x="914" y="397" fill="#ffffff" font-family="Inter, Segoe UI, Arial" font-size="21" font-weight="800" text-anchor="middle">Полный тест: выкл</text>
+  <rect x="734" y="452" width="300" height="54" rx="999" fill="#161616" stroke="#343434" stroke-width="3"/>
+  <text x="884" y="486" fill="#ffffff" font-family="Inter, Segoe UI, Arial" font-size="19" font-weight="700" text-anchor="middle">Назад</text>
+  <path d="M1080 218 C1045 245 1005 270 970 288" stroke="#ff3b3b" stroke-width="10" fill="none" marker-end="url(#arrow)"/>
+  <text x="740" y="598" fill="#ffb4ae" font-family="Inter, Segoe UI, Arial" font-size="31" font-weight="900">Нажмите «Старт»</text>
 </svg>
