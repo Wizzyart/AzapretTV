@@ -1,4 +1,4 @@
-# Azapret TV
+# Azapret TV Youtube
 
 Azapret TV - готовый APK для Android TV / Google TV / YaOS TV.
 
