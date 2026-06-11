@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="70%">
+      <stop offset="0%" stop-color="#102844"/>
+      <stop offset="55%" stop-color="#07111f"/>
+      <stop offset="100%" stop-color="#030813"/>
+    </radialGradient>
+    <linearGradient id="buttonOff" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a7dff"/>
+      <stop offset="100%" stop-color="#1748c8"/>
+    </linearGradient>
+    <linearGradient id="buttonOn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#17d68a"/>
+      <stop offset="100%" stop-color="#099b67"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softShadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <circle cx="640" cy="360" r="245" fill="#173b66" opacity="0.18"/>
+  <circle cx="640" cy="360" r="315" fill="none" stroke="#35b8ff" stroke-width="1" opacity="0.12"/>
+  <circle cx="640" cy="360" r="265" fill="none" stroke="#35b8ff" stroke-width="1" opacity="0.16"/>
+
+  <text x="640" y="92" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">Azapret TV</text>
+  <text x="640" y="132" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#b7c6d9">YouTube обход для Android TV без прошивки роутера</text>
+
+  <g transform="translate(0, 0)">
+    <text x="640" y="205" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff">Отключено</text>
+    <circle cx="640" cy="355" r="132" fill="#0b1728" opacity="0.55" filter="url(#softShadow)"/>
+    <circle cx="640" cy="355" r="122" fill="url(#buttonOff)" stroke="#7fb0ff" stroke-width="5" filter="url(#glow)"/>
+    <text x="640" y="346" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="29" font-weight="700" fill="#ffffff">Подключиться</text>
+    <text x="640" y="383" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#dce9ff">OK на пульте</text>
+    <text x="640" y="528" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#b7c6d9">Нажмите центральную кнопку, чтобы включить обход</text>
+  </g>
+
+  <g transform="translate(390, 575)">
+    <rect width="500" height="60" rx="30" fill="#152338" stroke="#2a4264" stroke-width="2"/>
+    <text x="250" y="38" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#ffffff">Автозапуск: выключен</text>
+  </g>
+
+  <g transform="translate(390, 648)">
+    <rect width="500" height="48" rx="24" fill="#101b2c" stroke="#203957" stroke-width="2" opacity="0.92"/>
+    <text x="250" y="31" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#b7c6d9">Открыть VPN-настройки Android</text>
+  </g>
+
+  <g transform="translate(28, 28)">
+    <rect width="166" height="34" rx="17" fill="#12243a" stroke="#284765"/>
+    <circle cx="23" cy="17" r="7" fill="#ff5570"/>
+    <text x="42" y="23" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#b7c6d9">MVP Preview</text>
+  </g>
+</svg>

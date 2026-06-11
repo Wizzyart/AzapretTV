@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Azapret TV</string>
+    <string name="subtitle">YouTube обход для Android TV без прошивки роутера</string>
+    <string name="status_on">Подключено</string>
+    <string name="status_off">Отключено</string>
+    <string name="turn_on">Включить обход</string>
+    <string name="turn_off">Выключить обход</string>
+    <string name="turn_on_round">Подключиться</string>
+    <string name="turn_off_round">Отключиться</string>
+    <string name="tap_hint">Нажмите центральную кнопку, чтобы включить обход</string>
+    <string name="connected_hint">Обход активен. Нажмите кнопку, чтобы отключиться</string>
+    <string name="debug_waiting">Статус запуска появится здесь после подключения</string>
+    <string name="hard_network_test">Жесткий тест: шаг</string>
+    <string name="full_youtube_diagnostics">Полная диагностика YouTube</string>
+    <string name="hard_network_test_running">Выполняю один шаг теста...</string>
+    <string name="full_youtube_diagnostics_running">Выполняю полную диагностику YouTube...</string>
+    <string name="bypass_profile_prefix">Профиль обхода: </string>
+    <string name="autostart_on">Стоп автозапуск</string>
+    <string name="autostart_off">Автозапуск</string>
+    <string name="autostart_enabled_status">Автозапуск включен. Обход будет стартовать после включения ТВ.</string>
+    <string name="autostart_disabled_status">Автозапуск выключен.</string>
+    <string name="autostart_stopped_status">Автозапуск выключен, обход остановлен.</string>
+    <string name="open_youtube">Открыть YouTube</string>
+    <string name="youtube_test">Тест YouTube</string>
+    <string name="strategy_test">Тест стратегий</string>
+    <string name="youtube_test_running">Проверяю YouTube, результат будет в журнале...</string>
+    <string name="youtube_not_found_status">YouTube TV не найден. Установите YouTube APK с флешки.</string>
+    <string name="open_log">Журнал</string>
+    <string name="clear_log">Очистить журнал</string>
+    <string name="close_log">Закрыть</string>
+    <string name="mvp_note">Рабочая сборка: подключение, профили обхода, автозапуск, тест стратегий и журнал.</string>
+    <string name="notification_channel">Azapret TV VPN</string>
+    <string name="notification_title">Azapret TV работает</string>
+    <string name="notification_text">Локальный VPN-сервис активен</string>
+</resources>
