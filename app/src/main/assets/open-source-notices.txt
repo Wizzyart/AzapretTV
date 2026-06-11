@@ -1,9 +1,0 @@
-Azapret TV includes open-source DPI/tunnel components for local network profiles.
-
-- ByeByeDPI integration by romanvht: https://github.com/romanvht/ByeByeDPI (GPLv3)
-- byedpi/ciadpi by hufrea: https://github.com/hufrea/byedpi (MIT)
-- hev-socks5-tunnel by heiher: https://github.com/heiher/hev-socks5-tunnel (verify bundled version license before public release)
-- zapret/tpws by bol-van: https://github.com/bol-van/zapret (verify bundled version license before public release)
-- tun2socks (verify bundled version license before public release)
-
-Azapret TV is distributed under GPLv3. Keep source availability and license notices when distributing APKs that include these components.
