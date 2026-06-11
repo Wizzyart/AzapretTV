@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#ff3b30"/></marker></defs>
+  <rect width="1280" height="720" fill="#020617"/>
+  <rect x="70" y="52" width="1140" height="616" rx="34" fill="#0b1220"/>
+  <rect x="278" y="150" width="724" height="420" rx="24" fill="#111827" stroke="#334155" stroke-width="4"/>
+  <text x="330" y="222" fill="#ffffff" font-family="Segoe UI, Arial" font-size="34" font-weight="800">Запрос на подключение VPN</text>
+  <text x="330" y="286" fill="#cbd5e1" font-family="Segoe UI, Arial" font-size="25">Azapret TV хочет настроить VPN-соединение.</text>
+  <text x="330" y="326" fill="#cbd5e1" font-family="Segoe UI, Arial" font-size="25">Это системное окно Android. Оно появляется</text>
+  <text x="330" y="366" fill="#cbd5e1" font-family="Segoe UI, Arial" font-size="25">для любого приложения на базе VpnService.</text>
+  <rect x="610" y="452" width="150" height="64" rx="16" fill="#1f2937"/>
+  <text x="658" y="494" fill="#cbd5e1" font-family="Segoe UI, Arial" font-size="25" font-weight="700">Отмена</text>
+  <rect x="790" y="452" width="150" height="64" rx="16" fill="#2563eb"/>
+  <text x="845" y="494" fill="#fff" font-family="Segoe UI, Arial" font-size="25" font-weight="800">OK</text>
+  <path d="M1045 510 C1000 490 960 480 920 480" stroke="#ff3b30" stroke-width="10" fill="none" marker-end="url(#arrow)"/>
+  <text x="805" y="620" fill="#ffb4ae" font-family="Segoe UI, Arial" font-size="32" font-weight="800">Нажмите OK / Разрешить</text>
+</svg>
